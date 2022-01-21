@@ -1,7 +1,8 @@
 # DiscordMute
 Executable mute/deafen commands for when Discord is not in focus
 
-v0.1 Dec 17, 2021
+v0.2 Jan 20, 2022
+Updated the key command to the right syntax, seems more reliable
 
 ## Purpose
 To send default Deafen/Mute commands (Default Ctrl-Shift-D/M) to Discord without window focus
