@@ -15,7 +15,7 @@
 ;             pressed for the game will be momentarily sent to Discord which could cause 
 ;             garbage text or possibly commands
 
-; Ctrl-Alt-Shift-Win
+; Ctrl-Alt-Shift
 ^!+F1::
 
 WinGet, nDiscordPID, PID, ahk_exe discord.exe
