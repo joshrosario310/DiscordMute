@@ -1,0 +1,3 @@
+src/experiments/dist
+src/experiments/build
+src/experiments/*.spec
