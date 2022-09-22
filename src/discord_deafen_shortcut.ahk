@@ -16,7 +16,7 @@
 ;             garbage text or possibly commands
 
 ; Ctrl-Alt-Shift-Win
-^!+#F2::
+^!+F2::
 
 WinGet, nDiscordPID, PID, ahk_exe discord.exe
 WinGet, nCurrentPID, PID, A
