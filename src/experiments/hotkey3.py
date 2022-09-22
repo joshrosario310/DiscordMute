@@ -8,6 +8,11 @@
 
 # Footswitch is configured for Ctrl-Shift-Alt-F1 and -F2
 
+# https://github.com/IRLToolkit/simpleobsws/tree/0.0.7
+# Had to install with pip install simpleobsws==0.0.7
+# Using obs-websocket==4.9.1
+# https://github.com/obsproject/obs-websocket/blob/4.9.1/docs/generated/protocol.md#requests
+
 import keyboard
 import asyncio
 import simpleobsws
