@@ -41,7 +41,8 @@ WinActivate, ahk_pid %nCurrentPID%
 Return
 
 ; Ctrl-Alt-Shift-F3 Mutes strip 1 in Voicemeeter as a global mute (Ctrl-F3)
-; NOTE: Voicemeeter Macro button needs to be running and programmed with Ctrl-F3 to mute, Voicemeeter window open
+; NOTE: Voicemeeter Macro button needs to be running and programmed with Ctrl-F3 to mute with Exclusive,
+; Voicemeeter needs to be open
 ^!+F3::
 
 WinGet, nVoicemeeterPID, PID, ahk_exe voicemeeter8x64.exe
@@ -49,7 +50,8 @@ WinGet, nCurrentPID, PID, A
 
 WinActivate, ahk_pid %nVoicemeeterPID%
 
-Send, ^F3
+Sleep, 100
+Send, ^{F3}
 
 WinActivate, ahk_pid %nCurrentPID%
 
