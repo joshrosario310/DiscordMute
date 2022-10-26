@@ -50,7 +50,7 @@ WinGet, nCurrentPID, PID, A
 
 WinActivate, ahk_pid %nVoicemeeterPID%
 
-Sleep, 100
+Sleep, 200
 Send, ^{F3}
 
 WinActivate, ahk_pid %nCurrentPID%
